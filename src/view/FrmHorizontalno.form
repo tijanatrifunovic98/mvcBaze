@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane2" pref="714" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <Component id="panelunos" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblPouzecem" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="lblVirmanom" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="panelunos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="lblVirmanom" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="107" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblPouzecem" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="107" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelunos">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="unos,izmena i brisanje racuna">
+              <Color PropertyName="color" blue="ff" green="66" red="33" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lnlDatumIzdavanja" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblnapomena2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblMestoizdavanja" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblnapomena" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblBrojRacuna" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtMestoIzdavanja" pref="258" max="32767" attributes="0"/>
+                      <Component id="txtRokPlacanja" max="32767" attributes="0"/>
+                      <Component id="txtDatumIzdavanja" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtBrojRacuna" alignment="0" pref="124" max="32767" attributes="0"/>
+                              <Component id="txtUkupanIznos" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblDatumPrometaDobaraIUsluga" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblNacinPlacanja" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblMestoisporuke" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblMagacin" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPIB" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtDatumPrometaDobaraIUsluga" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtNacinPlacanja" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtMestoIsporuke" max="32767" attributes="0"/>
+                              <Component id="txtMagacin" max="32767" attributes="0"/>
+                              <Component id="txtPIB" pref="124" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnIzbrisi" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnIzmeni" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnUnesi" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="btnPopuniPolja" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblBrojRacuna" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDatumPrometaDobaraIUsluga" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtDatumPrometaDobaraIUsluga" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtBrojRacuna" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtUkupanIznos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblnapomena" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNacinPlacanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNacinPlacanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblMestoisporuke" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMestoIsporuke" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblMagacin" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMagacin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblPIB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtPIB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnUnesi" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnIzmeni" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnIzbrisi" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtDatumIzdavanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lnlDatumIzdavanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtRokPlacanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblnapomena2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtMestoIzdavanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblMestoizdavanja" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="btnPopuniPolja" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblBrojRacuna">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Broj racuna:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBrojRacuna">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblnapomena">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ukupan iznos:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUkupanIznos">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDatumPrometaDobaraIUsluga">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Datum prometa dobara i usluga"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDatumPrometaDobaraIUsluga">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNacinPlacanja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nacin placanja:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNacinPlacanja">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnUnesi">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Unesi"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUnesiActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnIzmeni">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Izmeni"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIzmeniActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnIzbrisi">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Izbrisi"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIzbrisiActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lnlDatumIzdavanja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Datum izdavanja:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDatumIzdavanja">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRokPlacanja">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblnapomena2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rok placanja:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMestoIzdavanja">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMestoizdavanja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mesto izdavanja:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMestoisporuke">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mesto isporuke:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMagacin">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Magacin:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPIB">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PIB:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMestoIsporuke">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMagacin">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPIB">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPopuniPolja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Popuni polja za izmenu"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPopuniPoljaActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblVirmanom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Virmanom"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPouzecem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pouzecem"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblVirmanom">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblPouzecem">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
